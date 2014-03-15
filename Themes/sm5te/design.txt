@@ -1,0 +1,127 @@
+stepmania 5 tournament edition theme setup
+------------------------------------------
+music
+http://freemusicarchive.org/music/UltraCat/Disco_High/ultracat_-_01_-_disco_high
+
+[grades]
+AAAA		Platinum
+AAA			Gold
+AA			Silver
+A			Bronze
+B			Jade
+C			Cobalt
+D			Pink (was Imperial Topaz)
+F			Jasper
+No grade	Pearl
+
+[ScreenInit]
+company bullshit
+
+[ScreenTitleMenu]
+game start, gametype, data, options, exit.
+
+[GameType]
+it's just ScreenSelectGame
+
+[Data]
+???
+records
+
+[Game Start]
+well, there's no course modes for the time being, but there might be later.
+
+if autosetstyle then go to number of players screen
+if not autosetstyle go to screenselectstyle
+
+load profiles
+
+from there, we can skip to selmusic in early versions,
+but we will want to provide the opportunity to use courses later.
+
+[Select Music]
+add some things:
+ * song length
+ * player difficulties
+ * panedisplay stuff
+ * radarbars?
+ * player's best + breakdown
+
+[Player Options/Song Options]
+no soms2 trickery here
+
+[Stage Info]
+
+[Gameplay]
+
+[Eval]
+
+[Title->Options]
+* program options
+	* language
+	* announcer
+	* theme
+	* translations
+	* autogen steps
+	* autogen courses
+	* fast load
+	* easter eggs
+	* unlock system (remove me)
+* game options
+	* system options
+		* judge difficulty
+		* life difficulty
+		* scoring mode (? this needs to change badly)
+		* percentage scoring
+		* fantastic timing
+		* extra stage
+		* default fail (artificial; original code commented)
+	* display options
+		* default noteskin
+		* center 1p
+		* lyrics
+		* danger
+		* oni score display
+		* background brightness
+		* bga mode
+		* num random backgrounds
+* input section
+	* config key/joy	-> *
+	* test input		-> *
+	* input options
+		* automap joysticks
+		* menu buttons
+		* back delayed
+		* options navigation
+		* wheel speed
+* menu options
+	* autosetstyle
+	* show banners
+	* show song options
+	* wheel sections
+	* menu timer (remove me; forced off)
+	* instructions (remove me; unused)
+* graphics and sound
+	* display options
+		* display mode
+		* display resolution
+		* aspect ratio
+		* display color
+		* refresh rate
+		* smooth lines
+		* visual delay
+		* vsync
+		* rendering stats
+	* texture options
+		* texture res
+		* texture color
+		* movie color
+		* high-res tex
+		* textures in mem
+	* sound options
+		* sound volume
+		* attack sound
+		* mine sounds
+* calibrate audio sync
+* profiles
+* reload songs/courses
+* credits

@@ -1,0 +1,68 @@
+alternate
+attack mines
+?
+beat
+big
+blind
+blink
+bmrize
+boomerang
+boost
+brake
+bumpy
+centered?
+confuse?
+converge
+cross
+dark
+distant
+dizzy
+drunk
+echo
+expand
+flip
+hallway
+hidden
+holds -> rolls
+incoming
+invert
+left
+little
+mines (add)
+mini
+mirror
+no attacks
+no fakes
+no hands
+no holds
+no jumps
+no lifts
+no mines
+no quads
+no rolls
+no stretch
+planted
+quick
+random attacks
+reverse
+right
+roll
+shuffle
+skippy
+soft shuffle
+space
+split
+stealth
+stomp
+sudden
+sudden death
+super shuffle
+tiny
+tipsy
+tornado
+twirl
+twister
+wave
+wide
+xmode
+-reserved-

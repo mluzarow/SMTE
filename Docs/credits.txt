@@ -1,0 +1,72 @@
+StepMania 5 Tournament Edition Credits
+--------------------------------------
+[executive producer]
+freem
+
+[code]
+freem
+Greg Nadja (ITG Ogg Patch; http://code.google.com/p/itgoggpatch/)
+
+[theme]
+freem
+
+[graphics]
+freem
+
+{freem Typefaces}
+freem smallcaps (8px)
+freem numbers (16px, 24px)
+
+{Graphic Credits}
+Roulette icon by DesignContest
+http://www.iconarchive.com/show/casino-icons-by-designcontest/Roulette-icon.html
+
+{Borrowed Typefaces}
+DejaVu Sans (see http://dejavu-fonts.org/wiki/Authors for complete list)
+Francophilsans (Manfred Klein)
+Neogrey Medium (Ivan Philipov/Neogrey Creative; free for personal use...)
+Orbitron (The League of Movable Type)
+
+[Sounds]
+freem using sfxr
+
+[Music]
+various cuts of "Disco High" by UltraCat
+http://freemusicarchive.org/music/UltraCat/Disco_High/ultracat_-_01_-_disco_high
+licensed under a Creative Commons Attribution License:
+http://creativecommons.org/licenses/by/3.0/
+
+[Noteskins]
+Defalt noteskins from StepMania 5:
+dance\
+ default, Delta by shakesoda
+ midi-* by Midiman
+ retro, retrobar and variants by freem
+
+pump\
+ I forget who made everything -f
+ cesarmades
+ Daisuke Master
+ luizsan
+
+kb7\
+ default, orbital by MacGravel; ports/edits by shakesoda
+ retrobar and variants by freem
+
+Other noteskins bundled with StepMania 5 TE:
+dance\
+ Orbular by MacGravel, ported by Jousway
+ Notebar+ by MacGravel, ported by Jousway
+
+[Engine Credits]
+Engine based off of StepMania v5.0 (exact version withheld)
+
+[Special Thanks]
+           the spinal shark collective
+ shakesoda / midiman / deluxe / tweak / luizsan
+and that guy who did all the crap for SM5TE, AJ.
+             http://ssc.ajworld.net/
+
+NAKET Coder
+Wiz Khalifa
+Juicy J

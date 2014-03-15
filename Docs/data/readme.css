@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: #08A;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+p{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	line-height: 1.2em;
+}
+
+/* freem zone */
+.header{
+	padding-top: 0.5em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2em;
+	background: #068;
+	border-bottom: 2px solid #0CF;
+}
+
+.content{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	width: 90%;
+	background: #FFF;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.footer{
+	bottom: 0;
+	font-size: 80%;
+	width: 100%;
+	text-align: center;
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+	background: #024;
+	border-top: 2px solid #0AC;
+	border-bottom: 2px solid #012;
+	color: #FFF;
+}
+
+.footer a {
+	font-weight: bold;
+	color: #FED;
+}
+
+.footer a:visited {
+	color: #FED;
+}
+
+.footer a:hover {
+	color: #DEF;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	border-bottom: 1px dotted #888;
+}
+
+code {
+	font-family: Consolas, Monaco, monospace;
+	background: #DDD;
+}
+
+ul {
+	list-style: disc;
+	margin-left: 1em;
+	margin-top:0.5em;
+	margin-bottom:1em;
+	line-height: 1.2em;
+}
+ol {
+	list-style: decimal;
+	margin-left: 1.5em;
+	margin-top:0.5em;
+	margin-bottom:1em;
+}
+
+hr {
+	width: 95%;
+	border-color: #888;
+	border-style: solid;
+	border-width: 1px 0 0;
+	clear: both;
+	margin-top: 0.2em;
+	height: 0;
+
+	-moz-box-shadow: 0px 1px 0px #555;
+	-webkit-box-shadow: 0px 1px 0px #555;
+	box-shadow: 0px 1px 0px #555;
+}
+
+h1 {
+	font-size:2em;
+	font-weight:bold;
+}
+h2 {
+	font-size:1.5em;
+	font-weight:bold;
+}
+h3 {
+	font-size:1.25em;
+	font-weight:bold;
+}
+h4 {
+	font-size:1.125em;
+	font-weight:bold;
+}
+
+table {
+	padding:0.1em;
+	border:1px solid #222
+}
+
+td.Caption {
+	border:1px solid #222;
+	padding:0.2em;
+	text-align:center;
+}
+
+td {
+	border:1px solid #222;
+	padding:0.2em;
+}
+
+td.timing {
+	width: 18px;
+	height: 18px;
+}

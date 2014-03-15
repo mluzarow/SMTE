@@ -1,0 +1,1 @@
+return LoadActor(THEME:GetPathB("_custom","fade out"),0.5);

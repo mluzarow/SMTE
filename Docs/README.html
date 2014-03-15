@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>StepMania 5 Tournament Edition</title>
+<link rel="stylesheet" type="text/css" href="data/readme.css" />
+</head>
+
+<body>
+
+<div class="header">
+<h1><img src="data/logo.png" alt="StepMania 5 Tournament Edition" title="StepMania 5 Tournament Edition"></h1>
+</div>
+
+<div class="content">
+<h2>Introduction</h2>
+<p>StepMania 5 Tournament Edition is a modified version of <a href="http://www.stepmania.com/">StepMania</a> 5,
+primarily targeted at people who care about scoring. Currently, this product is not
+finished and must be considered development-quality. Not everything that has been
+planned for SM5TE has been implemented yet. It should be stable for the most part,
+however, so please use it and report back to me with your issues and feedback.</p>
+<hr/>
+
+<h2>Table of Contents</h2>
+<ol>
+<li><a href="#features">Features</a></li>
+<li><a href="#planned">Future Plans</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#startguide">Getting Started</a></li>
+<li><a href="#options">Options</a></li>
+<li><a href="#interface">SM5TE Interface</a></li>
+<li><a href="#advanced">Advanced Features</a></li>
+<li><a href="#troubleshoot">Troubleshooting</a></li>
+<li><a href="#credits">Credits</a></li>
+</ol>
+<hr/>
+
+<a id="features"><h2>Features</h2></a>
+<p>So what makes StepMania 5 Tournament Edition different from the normal StepMania 5?</p>
+<ul>
+<li>Default scoring type is now MIGS (Marvelous Incorporated Grading System).
+This means Marvelous/W1 is forced on.</li>
+<li>Judge and Life levels below 4 were removed.</li>
+<li>Various unnecessary preferences and features (e.g. Announcers, MonkeyInput,
+CoinMode_Pay, dancing characters, battle/rave modes, autogen steps)
+were removed.</li>
+<li>Rarely-used game modes (<code>ez2</code>, <code>ds3ddx</code>) were removed.</li>
+<li>Tweaking of various gameplay parameters to be more consistent with StepMania 3.9's gameplay.</li>
+</ul>
+<hr/>
+
+<a id="planned"><h2>Future Plans</h2></a>
+<p>SM5TE is being developed in multiple phases. This means there are features planned
+that aren't implemented in the current version.</p>
+
+<h3>Phase 1 - Gameplay Test</h3>
+<p>Previous versions of StepMania 5 (and sm-ssc) weren't focused that much on
+gameplay. Since SM5TE is a player-based build, gameplay is the first priority.
+The first phase is meant to be a test of gameplay, to see what problems and
+suggestions come up. Upon acceptance of StepMania 5 TE's gameplay as it pertains
+to legit scoring and general gameplay experience, the next phase can be worked on.</p>
+
+<h3>Phase 2 - Online Scoreboard</h3>
+<p>Once scores from SM5TE are legit, we can start ranking people. Ideally, there
+would be an <em>online leaderboard</em> viewable in both a web browser and in-game.
+This would require a <em>song database</em>, however... Work on the <em>Data menu</em>
+will finally begin in this phase. This is also a good place for the development of
+<em>Rivals</em> and <em>Replay Data</em>. Course mode will be re-enabled as well.</p>
+
+<h3>Phase 3 - Online Gameplay</h3>
+<p>You may have heard freem complain that the current StepMania online code is
+old and needs an overhaul. Phase 3 will be all about the creation of a
+<em>new online protocol and server</em>, with <em>enhanced client capabilities</em>.
+The plans for this are even less defined than the online scoreboard.</p>
+
+<h3>Other Features</h3>
+<p>There are other planned features that aren't particularly dependant on any of
+the phases listed above.</p>
+<ul>
+<li><strong>New ScreenMapControllers</strong> - The current controller mapping screen is pretty awkward.
+This also allows for a redefinition of the input system entirely.</li>
+<li><strong>New ScreenSelectGame</strong> - The current ScreenSelectGame is bland;
+just an options menu. It should at least tell you what styles are playable.</li>
+<li><strong>In-Game CustomSpeedMods Editor</strong> - because let's face it, I hate Windows 7.</li>
+<li><strong>Disqualification</strong> - DQ is being forced on for the initial release.
+Based on feedback and future plans, this may become user-configurable, or
+disqualification would happen on submission to the leaderboard.</li>
+<li><strong>Theme</strong> - The default SM5TE was designed to be utilitarian and
+to test the design sketched out in late 2011. It is subject to change, and
+commentary is welcome.</li>
+<li>and other ideas that aren't being divulged yet...</li>
+</ul>
+<p>The future of StepMania 5 Tournament Edition is in your hands. Shape it wisely.</p>
+<hr/>
+
+<a id="requirements"><h2>Requirements</h2></a>
+<p>StepMania 5 Tournament Edition is currently only available for Microsoft Windows.
+Other requirements include:</p>
+<ul>
+<li>A video card capable of DirectX 8 or OpenGL</li>
+<li>A sound card</li>
+<li>An input device of some kind (keyboard, controller, etc.)</li>
+</ul>
+<hr/>
+
+<a id="startguide"><h2>Getting Started</h2></a>
+<p>Note: This guide assumes you are already familiar with StepMania and have at least
+one (non-SM5TE) version installed.</p>
+
+<h3>Pre-First Run Checks</h3>
+<p>Before you run the game for the first time, there are a few things you should
+know about.</p>
+
+<h4>Portable Mode</h4>
+<p>If you dislike how StepMania 5 TE places all the data in your <code>%APPDATA%</code> folder,
+make a blank file called <code>Portable.ini</code> in the folder where you installed
+StepMania 5 Tournament Edition. This will create a structure similar to StepMania 3.9,
+where all the folders were in the StepMania install directory.</p>
+
+<h4>Speed Mods</h4>
+<p>With the advanced theming features of StepMania 5, players are no longer forced
+to edit the metrics (and languages) just to add speed mods. The relevant files
+will be created on the first run of the game. Look for <code>SpeedMods.txt</code>
+in the various profile folders in <code>/Save/</code>. The Machine Profile's
+speed mods are shared between all players, and the local player's speed mods
+are added on top of them.</p>
+
+<h4>Sharing Songs Between StepMania Installs</h4>
+<p>If you already know about <code>AdditionalSongFolders</code>, then there you go.</p>
+<p>If you didn't already know about <code>AdditionalSongFolders</code>, it's a preference
+in <code>Preferences.ini</code> that allows StepMania to load extra song directories
+on top of the local <code>/Songs/</code> folder and any Packages. Point it to your song folders.
+Here's an example: <code>AdditionalSongFolders=D:/StepMania 4/Songs/,F:/_stepm/Songs</code></p>
+<hr/>
+
+<a id="options"><h2>Options</h2></a>
+<p>On the Title Menu, select "Options" to configure various game options.</p>
+
+<h3>Program Options</h3>
+<p>This is where program-wide options live.</p>
+<ul>
+<li><strong>Language</strong> - Change the current language.</li>
+<li><strong>Theme</strong> - Change the current theme.</li>
+<li><strong>Translations</strong> - Toggles the display of songs between Native and Transliterated.</li>
+<li><strong>Fast Load</strong> - If enabled, songs won't be checked for changes on loading.</li>
+<li><strong>Easter Eggs</strong> - Toggles the display of some easter eggs (Toasty).</li>
+</ul>
+
+<h3>Game Options</h3>
+<p>As this is one of the most important sections, it's been split into two parts
+to facilitate quicker editing (hopefully.)</p>
+
+<h4>Game System Options</h4>
+<p>These options have to do with how the game plays.</p>
+<ul>
+<li><strong>Judge Difficulty</strong> - Judges 4 through 8 plus Justice.</li>
+<li><strong>Life Difficulty</strong> - Judge Scale, where 1.0 is supposed to be the equivalent of 4 from StepMania 3.9, but people complain that it's not hard enough.</li>
+<li><strong>Scoring Mode</strong> - The only scoring mode available in StepMania 5 Tournament Edition is MIGS (Marvelous Incorporated Grading System).</li>
+<li><strong>Percentage Scoring</strong> - Toggles display of Percent Score on Gameplay screen.</li>
+<li><strong>Auto Set Style</strong> - If enabled, allows players to change between the various styles of the current game automatically.</li>
+<li><strong>Allow Extra Stage</strong> - When Event Mode is disabled (via other means), toggles the use of Extra Stages.</li>
+</ul>
+
+<h4>Game Display Options</h4>
+<p>These options change various display-related things on ScreenGameplay.</p>
+<ul>
+<li><strong>Default Noteskin</strong> - Set the default noteskin.</li>
+<li><strong>Center 1 Player</strong> - Centers the notefield in one-player styles.</li>
+<li><strong>Gameplay Footer</strong> - Choose between three different gameplay footer options.</li>
+<li><strong>Lyrics</strong> - Toggles Lyrics display.</li>
+<li><strong>Danger</strong> - Toggles Danger display.</li>
+<li><strong>Oni Score Display</strong> - Toggles score display in Oni mode.</li>
+<li><strong>Background Brightness</strong> - Changes the brightness of the background.</li>
+<li><strong>Background Mode</strong> - (supposedly) Changes background display mode.</li>
+</ul>
+
+<h3>Input Options</h3>
+<p>Configure and test your mappings here.</p>
+
+<h4>Configure Input Mappings</h4>
+<p>At the moment, the old ScreenMapControllers is here. The plan is to replace
+the old ScreenMapControllers with a new, much better design.</p>
+
+<h4>Test Input</h4>
+<p>Slam on buttons and see if they work.</p>
+
+<h4>Other Input Options</h4>
+<ul>
+<li><strong>Automap Joysticks</strong> - Automatically map joysticks when plugged in. This will override manual mappings if enabled.</li>
+<li><strong>Menu Buttons</strong> - Toggle the use of Gameplay and Menu buttons for menu navigation.</li>
+<li><strong>Back Delayed</strong> - Decide if Back should instantly register or wait for half a second before registering.</li>
+<li><strong>Options Navigation</strong> - Choose between Options Menu input types.</li>
+<li><strong>Wheel Speed</strong> - Change the speed of the Music Wheel.</li>
+</ul>
+
+<h3>Menu Options</h3>
+<p>Technically this is ScreenSelectMusic options.</p>
+<ul>
+<li><strong>Show Banners</strong> - Toggles display of banners.</li>
+<li><strong>Wheel Sections</strong> - Toggles the dsplay of wheel sections. Does anyone use "Never" or "Title Only"?</li>
+<li><strong>Show Song Options</strong> - Toggles the display of the Song Options menu.</li>
+</ul>
+
+<h3>Graphics/Sound Options</h3>
+<p>Options for changing the display and sound playback.</p>
+<h4>Display Options</h4>
+<ul>
+<li><strong>Display Mode</strong> - Toggle between Windowed and Full-Screen.</li>
+<li><strong>Display Resolution</strong> - Change the resolution.</li>
+<li><strong>Aspect Ratio</strong> - Change the aspect ratio.</li>
+<li><strong>Display Color</strong> - Choose the window's color depth. May not work in windowed mode.</li>
+<li><strong>Refresh Rate</strong> - Controls framerate. Only useful in full screen.</li>
+<li><strong>Wait for VSync</strong> - Caps framerate to your monitor's refresh rate. Only useful in full screen.</li>
+<li><strong>Visual Delay</strong> - Calibrate display lag manually.</li>
+<li><strong>SmoothLines</strong> - Toggle anti-aliased lines on the Groove Radar.</li>
+<li><strong>Show Stats</strong> - Toggles the display of rendering stats and skips.</li>
+</ul>
+<p>A note about resolutions: StepMania is weird with them. The only things you
+need to pay attention to are the vertical height of the resolution and the
+aspect ratio. For instance, if your graphics card gives you options for 640x480
+and 720x480 and you use 16:9 aspect ratio, the screen will be the same size with
+either option.</p>
+
+<h4>Texture Options</h4>
+<ul>
+<li><strong>Texture Resolution</strong> - Choose the maximum texture resolution. Values under 1024 will cause some blurry textures, but may increase frame rate</li>
+<li><strong>Texture Color</strong> - Choose color depth for textures.</li>
+<li><strong>Movie Color</strong> - Choose color depth for movies.</li>
+<li><strong>High Res Textures</strong> - Toggle the use of high resolution textures.</li>
+<li><strong>Keep Textures in Memory</strong> - Toggle the holding of textures in memory. Only use this if you have more than 128MB of RAM.</li>
+</ul>
+
+<h4>Sound Options</h4>
+<p>Audio options. Kind of important in a music game.</p>
+<ul>
+<li><strong>Sound Volume</strong> - If you're a real pro, you'll set this to "Silent".</li>
+<li><strong>Attack Sounds</strong> - Toggles sounds on attack activation.</li>
+<li><strong>Mine Sounds</strong> - Toggles sounds on hit mines.</li>
+</ul>
+
+<h3>Calibrate Audio Sync</h3>
+<p>Use this if you want to interactively calibrate your global offset.</p>
+
+<h3>Manage Profiles</h3>
+<p>todo: write me</p>
+
+<h3>Reload Songs/Courses</h3>
+<p>Reloads your songs and courses. Useful if you've changed things.</p>
+<hr/>
+
+<a id="interface"><h2>SM5TE Interface</h2></a>
+<p>Assuming that you're using the SM5TE default theme ("StepMania 5 TE", <code>sm5te</code>), this
+guide will run you through the interface.</p>
+
+<h3>Select Style/Number of Players</h3>
+<p>Depending on the value of Auto Set Style, you will see one of two screens.</p>
+<center><table>
+	<tr>
+		<td class="Caption"><img src="data/selstyle.png" alt="ScreenSelectStyle" title="Select Style"><br/>With Auto Set Style Off</td>
+		<td class="Caption"><img src="data/selplayers.png" alt="ScreenSelectNumPlayers" title="Select Number of Players"><br/>With Auto Set Style On</td>
+	</tr>
+</table></center>
+<p>Each of the screens is meant to address the number of players. In the case of
+the style selection screen, you are locked to playing that specific style. However,
+if Auto Set Style is turned on, you will see the number of players screen, and can
+switch between styles freely.</p>
+
+<h3>Select Music</h3>
+<center><img style="border:1px solid #222; padding:0.2em;" src="data/selmusic.png" alt="ScreenSelectMusic" title="Select Music"></center>
+
+<h4>Timing Icons</h4>
+<p>The icons that appear between the stats frame and the banner frame let you know
+if any specific Segments are being used.</p>
+<table style="margin-left:auto;margin-right:auto;width:90%">
+	<tbody>
+	<tr>
+		<td class="timing"><img src="./data/icon-stop.png" alt="[Stops icon]" title="Stops"></td>
+		<td><strong>Stops</strong> - The chart will stop scrolling after the arrow is judged.</td>
+	</tr>
+	<tr>
+		<td><img src="./data/icon-delay.png" alt="[Stops icon]" title="Stops"></td>
+		<td><strong>Delays</strong> - The chart will stop scrolling before the arrow is judged.</td>
+	</tr>
+	<tr>
+		<td><img src="./data/icon-warp.png" alt="[Stops icon]" title="Stops"></td>
+		<td><strong>Warps</strong> - The chart will jump to another section. Popularized back in StepMania 3.9 via negative BPM and negative stop tricks.</td>
+	</tr>
+	<tr>
+		<td><img src="./data/icon-scroll.png" alt="[Stops icon]" title="Stops"></td>
+		<td><strong>Scrolls</strong> - </td>
+	</tr>
+	<tr>
+		<td><img src="./data/icon-speed.png" alt="[Stops icon]" title="Stops"></td>
+		<td><strong>Speeds</strong> - </td>
+	</tr>
+	<tr>
+		<td><img src="./data/icon-fake.png" alt="[Stops icon]" title="Stops"></td>
+		<td><strong>Fakes</strong> - Fake sections, where arrows do not count.</td>
+	</tr>
+	<tr>
+		<td><img src="./data/icon-attack.png" alt="[Stops icon]" title="Stops"></td>
+		<td><strong>Attacks</strong> - The song or chart has forced attacks.</td>
+	</tr>
+	</tbody>
+</table>
+
+<h3>Gameplay</h3>
+<center><img style="border:1px solid #222; padding:0.2em;" src="data/gameplay.png" alt="ScreenGameplay" title="Gameplay"></center>
+
+<h3>Evaluation</h3>
+<h4>Evaluation for One Player</h4>
+<center><img style="border:1px solid #222; padding:0.2em;" src="data/eval_1p.png" alt="ScreenEvaluation 1P" title="Evaluation for One Player"></center>
+
+<h4>Evaluation for Two Players</h4>
+<hr/>
+
+<a id="advanced"><h2>Advanced Features</h2></a>
+<p>StepMania 5 has some advanced features you may not know about already. At the
+present time, none of these are exclusive to StepMania 5 Tournament Edition. This
+may or may not change in the future.</p>
+
+<h3>Command Line Options</h3>
+
+
+<hr/>
+
+<a id="troubleshoot"><h2>Troubleshooting</h2></a>
+<hr/>
+
+<a id="credits"><h2>Credits</h2></a>
+<hr/>
+
+</div>
+
+<div class="footer">
+<a href="http://freem.co/"><img src="data/freemco.png" alt="freemco" title="freemco"></a><br/>
+Copyright &copy; 2012 <a href="http://freem.co/">freemco</a>.
+</div>
+
+</body>
+</html>

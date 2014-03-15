@@ -1,0 +1,12 @@
+Course files (.crs) typically go in folders. For example:
+
+* Courses\
+  * Examples\
+    * TestCourse.crs      - the course file itself
+    * TestCourse-bn.png   - the banner for the course
+    * TestCourse-bg.png   - the background for the course
+
+Unlike normal StepMania 5, SM5TE doesn't come with any courses.
+Since the courses included with StepMania 5 are not static, they can't be
+considered "legit" to score on. The support for reading them has not been removed,
+and you can re-add the courses if you like.

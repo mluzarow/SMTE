@@ -1,0 +1,1 @@
+return LoadActor(THEME:GetPathB("","_wait"),1.25)
